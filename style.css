@@ -2,3 +2,86 @@
   margin: 0;
   padding: 0;
 }
+.top {
+  background: linear-gradient(180deg, #fffbf0, white);
+}
+h1 {
+  font-size: 5em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3em;
+  font-weight: 500;
+}
+p {
+  font-size: 19px;
+}
+.icon {
+  margin: 10px;
+}
+.my-button {
+  text-decoration: none;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: purple;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+}
+.background {
+  display: flex;
+  align-items: center;
+  background-image: url(./images/Circle.svg);
+  background-position-y: 70px;
+  height: 600px;
+  width: 600px;
+  background-repeat: no-repeat;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.card {
+  padding: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.315);
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+}
+.card h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.card h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.card-icon {
+  color: goldenrod;
+}
+.card p {
+  font-weight: 600;
+}
+
+.footer-container {
+  height: 200px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon {
+  margin: 10px;
+}
